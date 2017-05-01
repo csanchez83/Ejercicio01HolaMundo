@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>HelloCordova</name>
+  <name>Ejercicio 01 Hola Mundo</name>
   <description>
-      A sample Apache Cordova application that responds to the deviceready event.
+      Ejercicio 01 Hola Mundo en PhoneGap.
   </description>
-  <author email="dev@cordova.apache.org" href="http://cordova.io">
-      Apache Cordova Team
+  <author email="csanchez83@hotmail.com" href="http://cordova.io">
+      Carlos Alberto Sanchez
   </author>
   <content src="index.html" />
   <plugin name="cordova-plugin-whitelist" spec="1" />
+  <plugin name="cordova-plugin-device" spec="^1.1.0" /> 
+  <plugin name="cordova-plugin-geolocation" spec="1" />
     
    
   <gap:plugin name="org.apache.cordova.camera"/>
